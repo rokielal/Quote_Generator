@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#root {
+    --background : rgb(194, 52, 52);
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background: #537253;
+}
+
+.wrapper {
+    position: relative;
+    width: 770px;
+    height: 30vh;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    padding: 30px 30px;
+}
+
+.wrapper h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1.2rem;
+}
+
+.quotes-area .quote {
+    font-size: 1.5rem;
+    text-align: center;
+    word-break: break-all;
+    margin-bottom: 20px;
+}
+
+.quotes-area .quote span{
+    font-size: 1.3rem;
+    color: red;
+    word-break: keep-all;
+}
+
+.btn {
+    font-size: 1.3rem;
+    width: 8rem;
+    height: 3rem;
+    position: absolute;
+    bottom: 50px;
+    right: 100px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
